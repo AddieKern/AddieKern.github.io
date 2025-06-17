@@ -359,7 +359,10 @@ main.newsletter h2{
 div.container{
     max-width: 60em;
 }
-
+section.gallery main {
+    padding-bottom: calc(42% + 12em);
+ 
+}
     nav{
         border-bottom: 1.3px solid rgb(230, 232, 221);
         padding-bottom:0.5em;
@@ -525,6 +528,10 @@ div.container section.secondary div.hov:hover{
 div.home-container section.tertiary div.hov:hover{
     transform:scale(1.05);
     /*border-top: 0;*/
+}
+section.gallery main {
+    padding-bottom: calc(42% + 10em);
+ 
 }
 }
 
